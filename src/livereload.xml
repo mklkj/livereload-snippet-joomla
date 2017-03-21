@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+    <name>plg_content_livereload</name>
+    <author>Mikołaj Pich</author>
+    <creationDate>2017-03-21</creationDate>
+    <copyright>Copyright (C) 2017 m.pich@outlook.com</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE</license>
+    <authorEmail>m.pich@outlook.com</authorEmail>
+    <authorUrl>https://github.com/mklkj</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_CONTENT_LIVERELOAD_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="livereload">livereload.php</filename>
+        <filename>index.html</filename>
+        <folder>language</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="custom_port" type="number" default="35729"
+                    description="PLG_CONTENT_LIVERELOAD_PORT_DESC"
+                    label="PLG_CONTENT_LIVERELOAD_PORT_LABEL"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
