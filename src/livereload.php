@@ -18,14 +18,10 @@ if($app->isSite())
 	$params = new JRegistry($plugin->params);
 	$document = JFactory::getDocument();
 	$document->addScriptDeclaration('
-		(function ($, window) {
-			$(function () {
-				var host = location.host.split(":")[0] || "localhost",
-					script = $("<script>"),
-					protocol = window.location.protocol;
-				script.attr("src", protocol + "//" + host + ":'.$params->get('custom_port').'/livereload.js");
-				$("body").append(script);
-			});
-		}(jQuery, window));
+		var script = document.createElement("script");
+		var host = location.host.split(":")[0] || "localhost",
+			protocol = window.location.protocol;
+		script.src = protocol + "//" + host + ":'.$params->get('custom_port').'/livereload.js";
+		document.head.appendChild(script);
 	');
 }
