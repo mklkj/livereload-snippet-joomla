@@ -19,7 +19,7 @@ deploy:
   provider: releases
   api_key:
     secure: X6ICK73NwkrWVTIyZLqj7V+/PABhGhVMZ8HlSs8AdE23ouqgKd+zu+bh6HsUPT5va3M7CcshsX1HIOV51qAyFJhYFEWW6tYGQHlUJ9r/crUudB6jotW0zaqSKYAGIErvAdUEOgdUMI/8UjOa6YVgesj/tsDEwn39H4bs/u68UkQn08pjhT/ZZ7vhz4ukDz5xGMyoUZotIZnOZFLvmuu3wmqa5MJcv2ahxectHhmXPriC86+5t7439RDHQYx0MaOW6hYrGLR0cscwM60hJ+oppdOzkSKbXg0mnkagm5q7gHuXyNaOaYlWyUkAqt7Uk6GZ/HNXclSucIo5jsH2QQFJJ80K3fs8PwSptp+N63qHhO9mQRaWYcj7IbuCvCHz5P+k2m3FDK5hgy3cFu8aF+ugEwA+f/963igjglkYWFpf756MsoodM8MhlkJbSwwMWcG+JC8XOrnenJP2HdVxUVKL75nFYoqL7v/6NNXZYEe/C2J8L+GjtC9YZ72gMWjYY9QWdvbBFhDs78O/O0mM5EzP4PQshkkXWN31QZbeCl/kC1RSQ3ECzhjU6eApvLnmLQbV5chXSZNDrYN2voSawyAQCB7K0e9Gbw74mz30RwKcyu0WometixWYddXN44LfVNOjIo6VWYxYpJ68P9v9rIiT8UlnRsuJB5BsOu/ozanCFy0=
-  file: livereload.zip
+  file: plg_livereload-snippet.zip
   skip_cleanup: true
   on:
     tags: true
