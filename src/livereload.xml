@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE</license>
     <authorEmail>m.pich@outlook.com</authorEmail>
     <authorUrl>https://github.com/mklkj</authorUrl>
-    <version>1.0.0</version>
+    <version>1.1.1</version>
     <description>PLG_CONTENT_LIVERELOAD_XML_DESCRIPTION</description>
     <files>
         <filename plugin="livereload">livereload.php</filename>
