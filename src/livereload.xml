@@ -7,8 +7,11 @@
     <license>GNU General Public License version 2 or later; see LICENSE</license>
     <authorEmail>m.pich@outlook.com</authorEmail>
     <authorUrl>https://github.com/mklkj</authorUrl>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
     <description>PLG_CONTENT_LIVERELOAD_XML_DESCRIPTION</description>
+    <updateservers>
+        <server type="extension" name="plg_content_livereload" priority="1">https://raw.githubusercontent.com/mklkj/livereload-snippet-joomla/master/updates.xml</server>
+    </updateservers>
     <files>
         <filename plugin="livereload">livereload.php</filename>
         <filename>index.html</filename>
